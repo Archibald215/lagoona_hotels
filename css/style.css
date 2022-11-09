@@ -1,0 +1,320 @@
+* {
+  box-sizing: border-box;
+}
+
+body {
+  background-color: #F1F1F1;
+}
+
+h2, h3 {
+  margin: 0;
+}
+
+a {
+  text-decoration: none;
+}
+
+p {
+  margin: 0;
+}
+
+.list_reset {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+}
+
+.container {
+  max-width: 1170px;
+  margin: 0 auto;
+}
+
+/* header */
+
+.header_top {
+  padding-top: 30px;
+  margin-bottom: 30px;
+}
+
+.logotype {
+  display: inline;
+}
+
+.logo_tel_authorization {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.nav_list {
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+}
+
+.header {
+  margin-bottom: 70px;
+}
+
+
+/* special */
+
+.special_offer_title {
+  padding-bottom: 20px;
+  padding-left: 30px;
+}
+
+.special_block1 {
+  max-width: 573px;
+  min-height: 258px;
+  background-image: url("../images/special_1.jpg");
+  margin-bottom: 24px;
+}
+
+.special_article_block_title1 {
+  display: block;
+}
+
+.special_block2 {
+  min-width: 573px;
+  max-height: 258px;
+  background-image: url("../images/special_2.jpg");
+}
+
+.special_offers_content {
+  display: flex;
+}
+
+.column {
+  margin-right: 24px;
+}
+
+.special_offers {
+  margin-bottom: 70px;
+}
+
+.special_block1_text {
+  display: inline-block;
+  position: relative;
+  margin: 40px 106px 40px 45px;
+}
+
+.special_block2_text2 {
+  display: inline-block;
+  position: relative;
+  max-width: 420px;
+  min-height: 178px;
+  margin: 40px 106px 40px 45px;
+}
+
+.special_right_text {
+  display: inline-block;
+  position: relative;
+  max-width: 180px;
+  min-height: 288px;
+  margin: 212px 229px 148px 45px;
+  color: white;
+}
+
+.special_article_block_title1 {
+  margin-bottom: 15px;
+}
+
+.special_article_block_title2 {
+  margin-bottom: 15px;
+}
+
+.more {
+  display: block;
+  position: relative;
+  margin-top: 47px;
+}
+
+.special_article_right {
+  min-width: 573px;
+  max-height: 540px;
+  background-image: url("../images/special_3.jpg");
+  outline: 1px solid red;
+}
+
+.special_article_right_title {
+  max-width: 299px;
+  min-height: 180px;
+  margin-bottom: 15px;
+}
+
+.more_right {
+  display: block;
+  position: relative;
+  margin-bottom: 40px;
+}
+
+.special_price_right {
+  margin-top: 15px;
+  margin-bottom: 47px;
+}
+
+/* about_us */
+
+.about_us_title {
+  padding-bottom: 20px;
+  padding-left: 30px;
+}
+
+.about_us_text {
+  min-width: 888px;
+}
+
+.about_us {
+  margin-bottom: 70px;
+}
+
+/* services */
+
+.services_title {
+    padding-bottom: 20px;
+    padding-left: 20px;
+  }
+
+.services_list {
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+}
+
+.card {
+  max-width: 573px;
+
+  background-color: white;
+}
+
+.card:not(:nth-child(2n)) {
+  margin-right: 24px;
+}
+
+.card:not(:last-child) {
+  margin-bottom: 24px;
+}
+
+.list_item_text {
+  padding: 26px 45px;
+  min-width: 402px;
+  min-height: 64px;
+}
+
+.services_item_title {
+  padding-bottom: 10px;
+}
+
+.services {
+  margin-bottom: 46px;
+}
+
+/* Advantages */
+
+.advantages_title {
+  padding-bottom: 20px;
+  padding-left: 20px;
+}
+
+.advantages_list {
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+}
+
+.advantages_list_item {
+  max-width: 276px;
+  min-height: 27px;
+  padding: 40px 42px 32px 45px;
+  background-color: white;
+  outline: 1px solid red;
+}
+
+.services_item_descr {
+  min-width: 189px;
+  min-height: 128px;
+}
+
+.advantages_list_item:not(:nth-child(4n)) {
+  margin-right: 22px;
+}
+
+.advantages_list_item {
+  margin-bottom: 22px;
+}
+ .card_image {
+  margin-bottom: 10px;
+ }
+
+ .advantages {
+  margin-bottom: 48px;
+}
+
+/* Accomodation */
+
+.accomodation_title {
+  padding-bottom: 20px;
+  padding-left: 30px;
+}
+
+.accomodation_list {
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+}
+
+.accomadation_list_item {
+  max-width: 374px;
+  min-height: 440px;
+  outline: 1px solid red;
+  background-color: white;
+}
+
+.rating {
+  display: inline;
+  margin-left: 52px;
+}
+
+.article_item_descr {
+  max-width: 300px;
+  min-height: 16px;
+  padding-top: 30px;
+  padding-left: 45px;
+}
+
+.accomodation_item_btn{
+  margin-top: 20px;
+  margin-bottom: 45px;
+  margin-left: 45px;
+}
+
+.accomadation_list_item:not(:nth-child(3n)) {
+  margin-right: 24px;
+}
+
+.accomadation_list_item:not(:last-child) {
+  margin-bottom: 24px;
+}
+
+.accomodation_item_title {
+  margin-top: 16px;
+  margin-bottom: 16px;
+}
+
+.special_item {
+  background-image: url("../images/place_9.jpg");
+  width: 374px;
+  height: 440px;
+}
+
+.all_vars {
+  display: inline-block;
+  position: relative;
+  margin: 373px 70px 27px 54px;
+  color: white;
+}
+
+
+
+
