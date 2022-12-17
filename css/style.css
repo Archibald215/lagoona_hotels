@@ -33,7 +33,7 @@
 }
 
 body {
-  background-color: #F1F1F1;
+  background-color: #E5E5E5;
 }
 
 h2, h3 {
@@ -52,6 +52,10 @@ ul {
   display: inline;
   margin: 0;
   padding: 0;
+}
+
+section {
+  margin-bottom: 70px;
 }
 
 .list_reset {
@@ -78,6 +82,8 @@ ul {
   border-radius: 10px;
   background-color: #FFFFFF;
 }
+
+
 
 /* header */
 
@@ -171,17 +177,19 @@ ul {
   justify-content: flex-start;
 }
 
-.nav_list_item,
-.nav_buttons_item {
+.nav_list_item {
   padding: 10px;
   margin-right: 35px;
   margin-top: 27px;
   margin-bottom: 27px;
+}
+.nav_list_item_link {
   font-family: 'Muller';
   font-style: normal;
   font-weight: 400;
   font-size: 16px;
-  line-height: 16px;       ;
+  line-height: 16px;
+  color: #666666;
 }
 
 .contact_btn {
@@ -191,6 +199,7 @@ ul {
   border: 1px solid #CC9933;
   border-radius: 10px;
   background-color: #FFFFFF;
+  margin-right: 60px;
 }
 
 .nav_list_buttons {
@@ -407,7 +416,6 @@ ul {
   }
 
 .services_item_descr {
-  max-width: 402px;
   font-family: 'Muller';
   font-style: normal;
   font-weight: 400;
@@ -426,9 +434,11 @@ ul {
   max-width: 573px;
   border-radius: 15px;
   margin-bottom: 24px;
-
-
   background-color: white;
+}
+
+.card:nth-last-child(n+3){
+  margin-bottom: 24px;
 }
 
 .card:not(:nth-child(2n)) {
@@ -485,11 +495,6 @@ ul {
   padding: 40px 42px 32px 45px;
   background-color: white;
   border-radius: 15px;
-}
-
-.services_item_descr {
-  min-width: 189px;
-  min-height: 128px;
 }
 
 .advantages_list_item:not(:nth-child(4n)) {
@@ -633,9 +638,9 @@ ul {
 
 .tour__inner {
   padding: 38px 45px 71px;
-  background: #e9e9e9;
   border-radius: 15px;
   max-width: 1200px;
+  background: #E9E9E9;
 }
 
 .want_tours_title {
@@ -707,6 +712,9 @@ select:first-child {
   flex-grow: 0;
 }
 
+label {
+  width: 32px;
+}
 
 /* Contacts */
 
@@ -737,12 +745,14 @@ select:first-child {
 
 .column_left {
   width: 40%;
-  height: 528px;
 }
 
 .column_right {
+  width: 60%;
   background-image: url('../images/contacts_image.jpg');
-  width: 653px;
+  background-repeat: no-repeat;
+  background-size: cover;
+  border-radius: 10px;
 }
 
 .contacts_list {
@@ -756,7 +766,6 @@ select:first-child {
 
 .contacts_btn {
   padding: 27px 30px;
-  margin-top: 45px;
   font-family: 'Muller';
   font-style: normal;
   font-weight: 400;
@@ -769,6 +778,7 @@ select:first-child {
 }
 
 .contacts_list_item {
+  justify-content: flex-start;
   padding-top: 25px;
   padding-bottom: 25px;
   max-width: 375px;
@@ -778,12 +788,17 @@ select:first-child {
   border-bottom: 1px solid #E9E9E9 ;
 }
 
+.contacts_list_item:last-child {
+  margin-bottom: 45px;
+}
+
 .contacts_list_item:first-child {
   padding-top: 0;
 }
 
 .contacts_item_descr {
-  max-width: 98px;
+  width: 98px;
+  margin-right: 53px;
   font-family: 'Muller';
   font-style: normal;
   font-weight: 700;
@@ -811,7 +826,7 @@ select:first-child {
   margin-left: 0;
 }
 
-.tel_links {
+.tel_link {
   max-width: 143px;
   min-height: 48px;
 }
